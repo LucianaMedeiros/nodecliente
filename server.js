@@ -66,7 +66,8 @@ app.get("/cliente/:id", (req,res)=>{
     })
  });
 
+var server = app.listen(process.env.PORT || 4008)
 
-var server = app.listen(4000, 'localhost', function(){
-    console.log('Escutando a porta 4000');
-});
+// var server = app.listen(4000, 'localhost', function(){
+//     console.log('Escutando a porta 4000');
+// });
