@@ -1,9 +1,11 @@
 var express = require("express");
 var bodyParser= require('body-parser');
+var cors = require('cors')
 var app = express();
 const mysql = require('mysql');
 
 app.use(bodyParser.json());
+app.use(cors());
 
 app.use(function(req,res, next){
 res.header('Access-Control-Allow-Origin','*');
