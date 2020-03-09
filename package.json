@@ -1,0 +1,19 @@
+{
+  "name": "mysql1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "script": {
+    "test": "echo ' Error: Projeto Roberto Carlos ' && exit 1"
+  },
+  "author": "aluno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.0.5",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.10"
+  }
+}
