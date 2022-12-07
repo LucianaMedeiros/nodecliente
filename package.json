@@ -9,9 +9,9 @@
   "author": "aluno",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "mongod": "^2.0.0",
     "mongodb": "^3.0.5",
     "mysql": "^2.16.0",
